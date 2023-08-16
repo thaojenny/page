@@ -1,14 +1,16 @@
 /* styles.css */
 .left {
     float: left;
-    width: 50%;
+    max-width: 50%;
     margin-right: 20px;
 }
 
 /* ... (previous code) ... */
 .right {
+    float: left;
     width: 40%;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .portfolio-item {
