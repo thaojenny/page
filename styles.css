@@ -1,0 +1,36 @@
+/* ... (previous code) ... */
+.right {
+    width: 70%;
+    padding: 20px;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+}
+
+.portfolio-item p {
+    margin-bottom: 10px;
+}
+
+.portfolio-item a {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.portfolio-item a:hover {
+    background-color: #555;
+}
+/* ... (rest of the CSS) ... */
