@@ -5,6 +5,10 @@
     margin-left: 40px;
     margin-right: 30px;
 }
+.left img {
+    max-width: 50%; /* Set maximum width for the image */
+    height: auto;
+}
 .links {
     text-align: center; /* Center-align the links */
     margin-top: 10px; /* Add some spacing between the image and links */
@@ -19,7 +23,7 @@
     margin-right: 0;
 }
 .name h1 {
-    color: blue; /* Change the color of the name to blue */
+    color: dodger blue; /* Change the color of the name to blue */
 }
 /* ... (previous code) ... */
 .right {
