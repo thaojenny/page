@@ -5,28 +5,21 @@
     margin-left: 40px;
     margin-right: 30px;
 }
-.name h1 {
-    color: blue; /* Change the color of the name to blue */
-}
-.left img {
-    max-width: 50%; /* Set maximum width for the image */
-    height: auto;
-}
-.left {
-    text-align: center;
-}
-
 .links {
+    text-align: center; /* Center-align the links */
     margin-top: 10px; /* Add some spacing between the image and links */
 }
 .links a {
     display: inline-block;
     margin-right: 10px;
-    text-decoration: none !important; /* Remove underlines from links */
-    font-weight: bold !important; /* Make the links bold */
+    text-decoration: none !important;
+    font-weight: bold !important;
 }
 .links a:last-child {
-    margin-right: 0; /* Remove margin from the last link to avoid extra spacing */
+    margin-right: 0;
+}
+.name h1 {
+    color: blue; /* Change the color of the name to blue */
 }
 /* ... (previous code) ... */
 .right {
