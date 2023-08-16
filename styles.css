@@ -6,13 +6,13 @@
     margin-right: 30px;
 }
 .left img {
-    max-width: 60%; /* Set maximum width for the image */
+    max-width: 50%; /* Set maximum width for the image */
     height: auto;
 }
 
 .links a {
-    text-decoration: none; /* Remove underlines from links */
-    font-weight: bold; /* Make the links bold */
+    text-decoration: none !important; /* Remove underlines from links */
+    font-weight: bold !important; /* Make the links bold */
 }
 /* ... (previous code) ... */
 .right {
