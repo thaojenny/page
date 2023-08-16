@@ -1,6 +1,6 @@
 /* ... (previous code) ... */
 .right {
-    width: 70%;
+    width: 40%;
     padding: 20px;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .portfolio-item img {
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .portfolio-item h3 {
