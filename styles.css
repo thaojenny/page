@@ -1,4 +1,7 @@
 /* styles.css */
+.name h1 {
+    color: dodgerblue; /* Change the color of the name to blue */
+}
 .left {
     float: left;
     width: 30%;
@@ -22,9 +25,7 @@
 .links a:last-child {
     margin-right: 0;
 }
-.name h1 {
-    color: dodger blue; /* Change the color of the name to blue */
-}
+
 /* ... (previous code) ... */
 .right {
     float: left;
