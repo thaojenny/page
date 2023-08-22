@@ -1,16 +1,27 @@
 /* styles.css */
+
+/* Set the color and margin for the name */
 .name h1 {
     color: #3399CC; /* Change the color of the name to blue */
     margin-top: 35px;
 }
+
+/* Style the portfolio heading */
 .portfolio-heading {
     text-align: center; /* Center-align the heading text */
     margin-bottom: 20px; /* Add some spacing below the heading */
+    color: #22679A; /* Use the color of your name */
+    font-weight: bold; /* Make the heading bold */
 }
-/* Add styles for the headings */
-.portfolio-heading, .project-heading, .project-title {
-    color: #22679A; /* Use the same color as your name */
-    font-weight: bold; /* Make the headings bold */
+/* Style the project headings */
+.project-heading {
+    color: #22679A; /* Use the color of your name */
+    font-weight: bold; /* Make the heading bold */
+}
+/* Style the project titles */
+.project-title {
+    color: #22679A; /* Use the color of your name */
+    font-weight: bold; /* Make the title bold */
 }
     .portfolio-item p {
     margin-bottom: 10px;
@@ -52,7 +63,7 @@
     margin-right: 0;
 }
 
-
+/* Style the right side */
 .right {
     float: left;
     width: 40%;
