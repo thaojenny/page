@@ -3,6 +3,10 @@
     color: #3399CC; /* Change the color of the name to blue */
     margin-top: 35px;
 }
+.portfolio-heading {
+    text-align: center; /* Center-align the heading text */
+    margin-bottom: 20px; /* Add some spacing below the heading */
+    
 /* Add styles for the headings */
 .portfolio-heading, .project-heading, .project-title {
     color: #22679A; /* Use the same color as your name */
