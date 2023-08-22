@@ -23,6 +23,9 @@
     color: #22679A; /* Use the color of your name */
     font-weight: bold; /* Make the title bold */
 }
+.project-description {
+    font-weight: normal; /* Remove bold from descriptions */
+}
     .portfolio-item p {
     margin-bottom: 10px;
     font-weight: bold;
