@@ -1,7 +1,12 @@
 /* styles.css */
 .name h1 {
-    color: #22679A; /* Change the color of the name to blue */
+    color: #3399CC; /* Change the color of the name to blue */
     margin-top: 30px;
+}
+/* Add styles for the headings */
+.portfolio-heading, .project-heading, .project-title {
+    color: #22679A; /* Use the same color as your name */
+    font-weight: bold; /* Make the headings bold */
 }
 .left {
     text-align: center;
