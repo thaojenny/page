@@ -30,6 +30,9 @@
     margin-bottom: 10px;
     font-weight: bold;
     }
+.bold-text {
+    font-weight: bold;
+}
 .left {
     text-align: center;
     float: left;
