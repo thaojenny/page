@@ -101,12 +101,13 @@
 /* Style the right side */
 .right {
     width: 70%; /* Adjust the width as needed */
-    float: left;
     padding: 20px;
     box-sizing: border-box;
     margin-top: 20px;
 }
-
+.clear {
+    clear: both;
+}
 .portfolio-item {
     margin-bottom: 30px;
 }
@@ -136,7 +137,5 @@
 .portfolio-item a:hover {
     background-color: #555;
 }
-.clear {
-    clear: both;
-}
+
 /* ... (rest of the CSS) ... */
