@@ -5,6 +5,21 @@
     color: #3399CC; /* Change the color of the name to blue */
     margin-top: 35px;
 }
+/* Style category titles */
+.category-title {
+    font-weight: bold;
+}
+
+/* Style skill lists */
+.skill-list {
+    list-style-type: disc; /* You can change the list marker style if needed */
+    margin-left: 20px; /* Adjust the left margin for spacing */
+}
+
+/* Adjust spacing between categories */
+.category {
+    margin-bottom: 20px; /* Add vertical spacing between categories */
+}
 
 /* Style the portfolio heading */
 .portfolio-heading {
