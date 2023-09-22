@@ -136,4 +136,7 @@
 .portfolio-item a:hover {
     background-color: #555;
 }
+.clear {
+    clear: both;
+}
 /* ... (rest of the CSS) ... */
