@@ -23,15 +23,9 @@
     color: #22679A; /* Use the color of your name */
     font-weight: bold; /* Make the title bold */
 }
-.project-description {
-    font-weight: normal; /* Remove bold from descriptions */
+.project-description p:first-child {
+    font-weight: bold;
 }
-    .portfolio-item p {
-    margin-bottom: 10px;
-    font-weight: bold;
-    }
-    .bold-text {
-    font-weight: bold;
 }
 .left {
     text-align: center;
