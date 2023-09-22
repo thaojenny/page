@@ -9,12 +9,21 @@
 .category-title {
     font-weight: bold;
 }
-
+/* Style skill lists */
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 10px;
+    list-style-type: none; /* Remove the list bullet points */
+    padding: 0;
+    margin: 0;
+}
 /* Style skill lists */
 .skill-list {
-    margin-left: 20px; /* Adjust the left margin for spacing */
-    font-weight: normal; /* Remove bold from skills */
-    display: inline; /* Display skills in a line */
+     font-weight: normal; /* Remove bold from skills */
 }
 
 /* Adjust spacing between categories */
