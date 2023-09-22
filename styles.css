@@ -5,30 +5,34 @@
     color: #3399CC; /* Change the color of the name to blue */
     margin-top: 35px;
 }
-/* Style category titles */
+.skills {
+    /* Add any specific styling for the skills section here */
+    text-align: left; /* Align the skills section to the left */
+}
+
+/* Style skill categories */
+.category {
+    display: inline-block; /* Display skill categories in a line */
+    margin-right: 20px; /* Add spacing between skill categories */
+}
+
+/* Style skill titles */
 .category-title {
     font-weight: bold;
 }
-/* Style skill lists */
-.skills {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: baseline;
-    gap: 10px;
-    list-style-type: none; /* Remove the list bullet points */
-    padding: 0;
-    margin: 0;
-}
+
 /* Style skill lists */
 .skill-list {
-     font-weight: normal; /* Remove bold from skills */
+    list-style-type: none; /* Remove the list bullet points */
+    margin-left: 0;
+    padding-left: 0;
 }
 
-/* Adjust spacing between categories */
-.category {
-    margin-bottom: 20px; /* Add vertical spacing between categories */
+/* Style individual skills */
+.skill-list li {
+    font-weight: normal; /* Make skills not bold */
+    display: inline; /* Display skills in a line */
+    margin-right: 5px; /* Add spacing between skills */
 }
 
 /* Style the portfolio heading */
