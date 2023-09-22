@@ -60,10 +60,11 @@
 
 .left {
     width: 30%;
-    float: left;
     margin-left: 60px;
 }
-
+.skills {
+    clear: both;
+}
 .left h1 {
     margin-top: 10px; /* Add space between image and name */
     /* Add any other styling for the name here */
