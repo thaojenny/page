@@ -54,6 +54,10 @@
     font-weight: bold;
 }
 
+.container {
+    overflow: hidden; /* Clear the floats */
+}
+
 .left {
     width: 30%;
     float: left;
