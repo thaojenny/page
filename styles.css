@@ -12,8 +12,9 @@
 
 /* Style skill lists */
 .skill-list {
-    list-style-type: disc; /* You can change the list marker style if needed */
     margin-left: 20px; /* Adjust the left margin for spacing */
+    font-weight: normal; /* Remove bold from skills */
+    display: inline; /* Display skills in a line */
 }
 
 /* Adjust spacing between categories */
