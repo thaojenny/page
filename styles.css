@@ -58,91 +58,25 @@
     overflow: hidden; /* Clear the floats */
 }
 
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
 .left {
-    width: 30%;
     margin-left: 60px;
 }
-.skills {
-    float: left; /* Float the skills div to the left */
-    width: 30%; /* Adjust the width as needed */
-    margin-left: 60px; /* Add margin if necessary */
-    margin-top: 20px; /* Add some spacing between the intro and skills */
-}
-.left h1 {
-    margin-top: 10px; /* Add space between image and name */
-    /* Add any other styling for the name here */
-}
 
-.left img {
-    max-width: 100%; /* Set maximum width for the image */
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.left .intro {
-    text-align: center; /* Center-align the introduction */
-    margin-top: 20px; /* Add some spacing between the name and introduction */
-}
-
-.links {
-    text-align: center; /* Center-align the links */
-    margin-top: 10px; /* Add some spacing between the image and links */
-}
-
-.links a {
-    display: inline-block;
-    margin-right: 10px;
-    text-decoration: none !important;
-    font-weight: bold !important;
-}
-
-.links a:last-child {
-    margin-right: 0;
-}
-
-/* Style the right side */
 .right {
-    width: 70%; /* Adjust the width as needed */
-    padding: 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
+    margin-right: 60px;
 }
+
 .clear {
     clear: both;
-}
-.portfolio-item {
-    margin-bottom: 30px;
 }
 
 .portfolio-item img {
     max-width: 100%;
 }
-
-.portfolio-item h3 {
-    margin-top: 10px;
-}
-
-.portfolio-item p {
-    margin-bottom: 10px;
-}
-
-.portfolio-item a {
-    display: inline-block;
-    margin-right: 10px;
-    background-color: #22679A;
-    color: #fff;
-    padding: 5px 10px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.portfolio-item a:hover {
-    background-color: #555;
-}
-.container::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/* ... (rest of the CSS) ... */ 
