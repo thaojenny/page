@@ -56,20 +56,13 @@
 
 .container {
     overflow: hidden; /* Clear the floats */
-    display: flex; /* Use flexbox to create a two-column layout */
-    flex-wrap: wrap; /* Enable wrapping for responsiveness */
-    justify-content: space-between; /* Space items evenly between columns */
-    padding: 20px; /* Add some padding for spacing */
 }
 
 /* Style the left column */
-.left-column {
-    flex: 1; /* Take up 50% of the available space */
-    padding: 20px; /* Add some padding to the content */
-    background-color: #f0f0f0; /* Add a background color */
-    width: 60%; /* Full width on small screens */
-    max-width: 200px; /* Limit the width on larger screens */
-    margin: 0 auto; /* Center the column */
+.left {
+    width: 30%; /* Adjust the width as needed */
+    margin-left: 30px; /* Add some margin for spacing */
+    float: left; /* Float the left column */
 }
 
 .left h1 {
@@ -78,7 +71,7 @@
 }
 
 .left img {
-    max-width: 40%; /* Set maximum width for the image */
+    max-width: 100%; /* Set maximum width for the image */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -110,17 +103,15 @@
 }
 
 /* Style the right column */
-.right-column {
-    flex: 1; /* Take up 50% of the available space */
-    padding: 20px; /* Add some padding to the content */
-    background-color: #e0e0e0; /* Add a background color */
-    width: 60%; /* Full width on small screens */
-    max-width: 200px; /* Limit the width on larger screens */
-    margin: 0 auto; /* Center the column */
+.right {
+    width: 65%; /* Adjust the width as needed */
+    margin-left: 20px; /* Add some margin for spacing */
+    float: left; /* Float the right column */
+    padding: 20px; /* Add padding for content */
 }
 
 .clear {
-    clear: both;
+    clear: both; /* Clear floats */
 }
 
 .portfolio-item {
@@ -128,7 +119,7 @@
 }
 
 .portfolio-item img {
-    max-width: 40%;
+    max-width: 100%;
 }
 
 .portfolio-item h3 {
