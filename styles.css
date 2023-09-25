@@ -78,7 +78,7 @@
 }
 
 .left img {
-    max-width: 100%; /* Set maximum width for the image */
+    max-width: 60%; /* Set maximum width for the image */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -128,7 +128,7 @@
 }
 
 .portfolio-item img {
-    max-width: 100%;
+    max-width: 60%;
 }
 
 .portfolio-item h3 {
