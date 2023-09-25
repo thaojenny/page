@@ -3,12 +3,12 @@
 /* Set the color and margin for the name */
 .name h1 {
     color: #3399CC; /* Change the color of the name to blue */
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 /* Style skill categories */
 .category {
-    margin-bottom: 10px; /* Add vertical spacing between categories */
+    margin-bottom: 20px; /* Add vertical spacing between categories */
 }
 
 /* Style skill titles */
@@ -33,7 +33,7 @@
 /* Style the portfolio heading */
 .portfolio-heading {
     text-align: center; /* Center-align the heading text */
-    margin-bottom: 10px; /* Add some spacing below the heading */
+    margin-bottom: 20px; /* Add some spacing below the heading */
     color: #22679A; /* Use the color of your name */
     font-weight: bold; /* Make the heading bold */
 }
@@ -58,20 +58,23 @@
     overflow: hidden; /* Clear the floats */
 }
 
-/* Style the left column */
 .left {
-    width: 25%; /* Adjust the width as needed */
-    margin-left: 10px; /* Add some margin for spacing */
-    float: left; /* Float the left column */
+    width: 30%;
+    margin-left: 60px;
 }
-
+.skills {
+    float: left; /* Float the skills div to the left */
+    width: 30%; /* Adjust the width as needed */
+    margin-left: 60px; /* Add margin if necessary */
+    margin-top: 20px; /* Add some spacing between the intro and skills */
+}
 .left h1 {
     margin-top: 10px; /* Add space between image and name */
     /* Add any other styling for the name here */
 }
 
 .left img {
-    max-width: 30%; /* Set maximum width for the image */
+    max-width: 100%; /* Set maximum width for the image */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -92,34 +95,28 @@
     margin-right: 10px;
     text-decoration: none !important;
     font-weight: bold !important;
-    background-color: #22679A; /* Blue background color */
-    color: #fff; /* White text color */
-    padding: 5px 10px;
-    border-radius: 5px;
 }
 
 .links a:last-child {
     margin-right: 0;
 }
 
-/* Style the right column */
+/* Style the right side */
 .right {
-    width: 60%; /* Adjust the width as needed */
-    margin-left: 10px; /* Add some margin for spacing */
-    float: left; /* Float the right column */
-    padding: 20px; /* Add padding for content */
+    width: 70%; /* Adjust the width as needed */
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
 }
-
 .clear {
-    clear: both; /* Clear floats */
+    clear: both;
 }
-
 .portfolio-item {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .portfolio-item img {
-    max-width: 40%;
+    max-width: 100%;
 }
 
 .portfolio-item h3 {
@@ -143,7 +140,6 @@
 .portfolio-item a:hover {
     background-color: #555;
 }
-
 .container::after {
     content: "";
     display: table;
