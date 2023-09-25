@@ -61,11 +61,11 @@
     background-color: #ffffff;
     display: flex; /* Use flexbox to align columns */
     justify-content: space-between; /* Add space between columns */
+    margin: 20px 30px;
 }
 .left-column {
     /* Remove float and adjust the width and margin */
     width: 30%;
-    margin-left: 2%;
     margin-top: 20px;
     background-color: #ffffff;
     padding: 10px; /* Add some padding to the left column */
@@ -123,10 +123,10 @@
    /* Remove float and adjust the width, margin, and background color */
     width: 60%;
     margin-top: 20px;
-    margin-right: 2%;
     background-color: #ffffff;
     padding: 10px; /* Add some padding to the right column */
     box-sizing: border-box; /* Include padding in width calculation */
+    margin-left: 20px;
 }
 
 .portfolio-item {
