@@ -86,7 +86,7 @@
 }
 
 .left img {
-    max-width: 100%; /* Set maximum width for the image */
+    max-width: 30%; /* Set maximum width for the image */
     height: auto;
     display: block;
     margin: 0 auto;
