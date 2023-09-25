@@ -1,82 +1,28 @@
 /* styles.css */
 
-/* Set the color and margin for the name */
-.name h1 {
-    color: #3399CC; /* Change the color of the name to blue */
-    margin-top: 35px;
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
 }
 
-/* Style skill categories */
-.category {
-    margin-bottom: 20px; /* Add vertical spacing between categories */
-}
-
-/* Style skill titles */
-.category-title {
-    font-weight: bold;
-}
-
-/* Style skill lists */
-.skill-list {
-    list-style-type: none; /* Remove the list bullet points */
-    margin-left: 0;
-    padding-left: 0;
-}
-
-/* Style individual skills */
-.skill-list li {
-    font-weight: normal; /* Make skills not bold */
-    display: inline; /* Display skills in a line */
-    margin-right: 5px; /* Add spacing between skills */
-}
-
-/* Style the portfolio heading */
-.portfolio-heading {
-    text-align: center; /* Center-align the heading text */
-    margin-bottom: 20px; /* Add some spacing below the heading */
-    color: #22679A; /* Use the color of your name */
-    font-weight: bold; /* Make the heading bold */
-}
-
-/* Style the project headings */
-.project-heading {
-    color: #22679A; /* Use the color of your name */
-    font-weight: bold; /* Make the heading bold */
-}
-
-/* Style the project titles */
-.project-title {
-    color: #22679A; /* Use the color of your name */
-    font-weight: bold; /* Make the title bold */
-}
-
-.project-description p:first-child {
-    font-weight: bold;
-}
-
+/* Create a container for the two columns */
 .container {
-    overflow: hidden; /* Clear the floats */
+    display: flex; /* Use flexbox to create a two-column layout */
+    justify-content: space-between; /* Space items evenly between columns */
+    padding: 20px; /* Add some padding for spacing */
 }
 
-.column {
-    float: left;
-    width: 50%;
-    padding: 15px;
-    box-sizing: border-box;
+/* Style the left column */
+.left-column {
+    flex: 1; /* Take up 50% of the available space */
+    padding: 20px; /* Add some padding to the content */
+    background-color: #f0f0f0; /* Add a background color */
 }
 
-.left {
-    margin-left: 60px;
-}
-
-.right {
-    margin-right: 60px;
-}
-
-.clear {
-    clear: both;
-}
-
-.portfolio-item img {
-    max-width: 100%;
+/* Style the right column */
+.right-column {
+    flex: 1; /* Take up 50% of the available space */
+    padding: 20px; /* Add some padding to the content */
+    background-color: #e0e0e0; /* Add a background color */
 }
