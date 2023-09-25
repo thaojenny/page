@@ -85,7 +85,7 @@
     /* Add any other styling for the name here */
 }
 
-.left img {
+.left-img {
     max-width: 30%; /* Set maximum width for the image */
     height: auto;
     display: block;
