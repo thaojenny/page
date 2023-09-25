@@ -103,20 +103,22 @@
 
 /* Style the right side */
 .right {
-    width: 60%; /* Adjust the width as needed */
+    width: 65%; /* Adjust the width as needed */
     padding: 20px;
     box-sizing: border-box;
     margin-top: 20px;
+    overflow: hidden; /* Add overflow property to hide content that exceeds the column */
 }
-.clear {
-    clear: both;
-}
+
 .portfolio-item {
     margin-bottom: 30px;
+    padding: 10px; /* Add padding to the portfolio items */
+    border: 1px solid #ccc; /* Add a border to separate portfolio items */
+    background-color: #f9f9f9; /* Add a background color for better separation */
 }
 
 .portfolio-item img {
-    max-width: 30%;
+    max-width: 100%; /* Allow project images to resize to the width of the column */
 }
 
 .portfolio-item h3 {
@@ -140,9 +142,3 @@
 .portfolio-item a:hover {
     background-color: #555;
 }
-.container::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/* ... (rest of the CSS) ... */
