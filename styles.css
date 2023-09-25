@@ -56,6 +56,7 @@
 
 .container {
     overflow: hidden; /* Clear the floats */
+    background-color: #ffffff;
 }
 .left-column {
     float: left; /* Float the left column to the left */
