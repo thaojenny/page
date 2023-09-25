@@ -63,6 +63,7 @@
     width: 30%; /* Adjust the width as needed */
     margin-left: 2%; /* Add margin if necessary */
     margin-top: 25px; /* Add some spacing between the intro and skills */
+     background-color: #ffffff;
 }
 
 
@@ -78,7 +79,7 @@
 }
 
 .left img {
-    max-width: 30%; /* Set maximum width for the image */
+    max-width: 100%; /* Set maximum width for the image */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -110,10 +111,11 @@
 /* Style the right side */
 
 .right-column {
-    float: right; /* Float the right column to the right */
+   float: right; /* Float the right column to the right */
     width: 65%; /* Adjust the width as needed */
-    padding: 20px;
-    margin-top: 2%;
+    margin-top: 20px; /* Add margin to the top of the right column */
+    margin-right: 2%; /* Add some margin between columns */
+    background-color: #ffffff;
 }
 
 .portfolio-item {
