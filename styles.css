@@ -2,14 +2,14 @@
 
 /* Set the color and margin for the name */
 .name h1 {
-    color: #3399CC; /* Change the color of the name to blue */
+    color: #22679A; /* Change the color of the name to blue */
     margin-top: 20px;
      text-align: center;
 }
 
 /* Style skill categories */
 .category {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 8px; /* Add vertical spacing between categories */
 }
 
@@ -29,7 +29,7 @@
 .skill-list li {
     font-weight: normal; /* Make skills not bold */
     display: inline; /* Display skills in a line */
-    margin-right: 5px; /* Add spacing between skills */
+    margin-right: 3px; /* Add spacing between skills */
 }
 
 /* Style the portfolio heading */
@@ -61,12 +61,14 @@
     background-color: #ffffff;
     display: flex; /* Use flexbox to align columns */
     justify-content: space-between; /* Add space between columns */
-    margin: 20px 30px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 .left-column {
     /* Remove float and adjust the width and margin */
     width: 30%;
     margin-top: 20px;
+    margin-left: 30px;
     background-color: #ffffff;
     padding: 10px; /* Add some padding to the left column */
     box-sizing: border-box; /* Include padding in width calculation */
@@ -126,7 +128,7 @@
     background-color: #ffffff;
     padding: 10px; /* Add some padding to the right column */
     box-sizing: border-box; /* Include padding in width calculation */
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .portfolio-item {
