@@ -63,7 +63,10 @@
     margin-left: 60px;
 }
 .skills {
-    clear: both;
+    float: left; /* Float the skills div to the left */
+    width: 30%; /* Adjust the width as needed */
+    margin-left: 60px; /* Add margin if necessary */
+    margin-top: 20px; /* Add some spacing between the intro and skills */
 }
 .left h1 {
     margin-top: 10px; /* Add space between image and name */
