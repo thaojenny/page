@@ -101,6 +101,8 @@
     margin-right: 0;
 }
 
+/* ... (previous styles) ... */
+
 /* Style the right side */
 .right {
     width: 65%; /* Adjust the width as needed */
@@ -110,15 +112,16 @@
 }
 
 .portfolio-item {
-    margin-bottom: 30px;
+    margin-bottom: 20px; /* Adjust margin to reduce space between portfolio items */
     padding: 10px; /* Add padding to the portfolio items */
     border: 1px solid #ccc; /* Add a border to separate portfolio items */
     background-color: #f9f9f9; /* Add a background color for better separation */
     overflow: hidden; /* Add overflow to contain content within the item */
+    width: 100%; /* Make sure portfolio items stay within the column */
 }
 
 .portfolio-item img {
-    max-width: 30%; /* Allow project images to resize to the width of the column */
+    max-width: 100%; /* Allow project images to resize to the width of the column */
 }
 
 .portfolio-item h3 {
