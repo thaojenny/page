@@ -107,7 +107,6 @@
     padding: 20px;
     box-sizing: border-box;
     margin-top: 20px;
-    overflow: hidden; /* Add overflow property to hide content that exceeds the column */
 }
 
 .portfolio-item {
@@ -115,10 +114,11 @@
     padding: 10px; /* Add padding to the portfolio items */
     border: 1px solid #ccc; /* Add a border to separate portfolio items */
     background-color: #f9f9f9; /* Add a background color for better separation */
+    overflow: hidden; /* Add overflow to contain content within the item */
 }
 
 .portfolio-item img {
-    max-width: 100%; /* Allow project images to resize to the width of the column */
+    max-width: 30%; /* Allow project images to resize to the width of the column */
 }
 
 .portfolio-item h3 {
@@ -127,6 +127,9 @@
 
 .portfolio-item p {
     margin-bottom: 10px;
+    /* Allow text to wrap within the portfolio item */
+    white-space: normal;
+    word-wrap: break-word;
 }
 
 .portfolio-item a {
