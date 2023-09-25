@@ -120,9 +120,10 @@
 
 .portfolio-item {
     margin-bottom: 20px; /* Adjust margin to reduce space between portfolio items */
-    padding: 10px; /* Add padding to the portfolio items */
-    border: 1px solid #ccc; /* Add a border to separate portfolio items */
-    background-color: #f9f9f9; /* Add a background color for better separation */
+    /* Remove padding, border, and background color to remove the visible margin */
+    padding: 0;
+    border: none;
+    background-color: transparent;
     overflow: hidden; /* Add overflow to contain content within the item */
     width: 100%; /* Make sure portfolio items stay within the column */
 }
