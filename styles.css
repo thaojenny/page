@@ -61,7 +61,7 @@
 .left-column {
     float: left; /* Float the left column to the left */
     width: 30%; /* Adjust the width as needed */
-    margin-left: 60px; /* Add margin if necessary */
+    margin-left: 2%; /* Add margin if necessary */
     margin-top: 25px; /* Add some spacing between the intro and skills */
 }
 
@@ -69,7 +69,7 @@
 .skills {
     float: left; /* Float the skills div to the left */
     width: 30%; /* Adjust the width as needed */
-    margin-left: 60px; /* Add margin if necessary */
+    margin-left: 2%; /* Add margin if necessary */
     margin-top: 25px; /* Add some spacing between the intro and skills */
 }
 .left h1 {
@@ -113,8 +113,7 @@
     float: right; /* Float the right column to the right */
     width: 65%; /* Adjust the width as needed */
     padding: 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 .portfolio-item {
