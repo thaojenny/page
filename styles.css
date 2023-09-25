@@ -3,7 +3,7 @@
 /* Set the color and margin for the name */
 .name h1 {
     color: #3399CC; /* Change the color of the name to blue */
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 /* Style skill categories */
@@ -69,12 +69,12 @@
     margin-top: 20px; /* Add some spacing between the intro and skills */
 }
 .left h1 {
-    margin-top: 10px; /* Add space between image and name */
+    margin-top: 15px; /* Add space between image and name */
     /* Add any other styling for the name here */
 }
 
 .left img {
-    max-width: 100%; /* Set maximum width for the image */
+    max-width: 50%; /* Set maximum width for the image */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -103,7 +103,7 @@
 
 /* Style the right side */
 .right {
-    width: 70%; /* Adjust the width as needed */
+    width: 65%; /* Adjust the width as needed */
     padding: 20px;
     box-sizing: border-box;
     margin-top: 20px;
@@ -116,11 +116,11 @@
 }
 
 .portfolio-item img {
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .portfolio-item h3 {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .portfolio-item p {
