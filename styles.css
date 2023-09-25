@@ -127,7 +127,7 @@
 }
 
 .portfolio-item img {
-    max-width: 100%; /* Allow project images to resize to the width of the column */
+    max-width: 40%; /* Allow project images to resize to the width of the column */
 }
 
 .portfolio-item h3 {
