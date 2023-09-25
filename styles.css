@@ -137,5 +137,9 @@
 .portfolio-item a:hover {
     background-color: #555;
 }
-
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 /* ... (rest of the CSS) ... */
